@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Instruction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruction.Designer.cs">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Winner.Designer.cs">
       <DependentUpon>Winner.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Instruction.resx">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_form.resx">
       <DependentUpon>Login_form.cs</DependentUpon>
     </EmbeddedResource>

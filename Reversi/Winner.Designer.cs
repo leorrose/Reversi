@@ -52,7 +52,6 @@
             // 
             // Lb_winner
             // 
-            this.Lb_winner.AutoSize = true;
             this.Lb_winner.BackColor = System.Drawing.Color.Transparent;
             this.Lb_winner.Font = new System.Drawing.Font("Modern No. 20", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_winner.ForeColor = System.Drawing.Color.LimeGreen;
@@ -61,6 +60,8 @@
             this.Lb_winner.Size = new System.Drawing.Size(424, 62);
             this.Lb_winner.TabIndex = 1;
             this.Lb_winner.Text = "The Winner is :";
+            this.Lb_winner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Lb_winner.UseCompatibleTextRendering = true;
             // 
             // pictureBox1
             // 
@@ -123,9 +124,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label Lb_winner;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button Bt_continue;
+        private System.Windows.Forms.Label Lb_winner;
     }
 }

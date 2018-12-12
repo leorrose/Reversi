@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_form));
-            this.Tb_Player1 = new System.Windows.Forms.RichTextBox();
-            this.Tb_player2 = new System.Windows.Forms.RichTextBox();
             this.Lb_label1 = new System.Windows.Forms.Label();
             this.Lb_label2 = new System.Windows.Forms.Label();
             this.Bt_login_exit = new System.Windows.Forms.Button();
@@ -41,37 +39,13 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.Lb_credits = new System.Windows.Forms.Label();
+            this.Tb_Player1 = new System.Windows.Forms.TextBox();
+            this.Tb_player2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Tb_Player1
-            // 
-            this.Tb_Player1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Tb_Player1.BackColor = System.Drawing.Color.LimeGreen;
-            this.Tb_Player1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Tb_Player1.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tb_Player1.Location = new System.Drawing.Point(802, 303);
-            this.Tb_Player1.Multiline = false;
-            this.Tb_Player1.Name = "Tb_Player1";
-            this.Tb_Player1.Size = new System.Drawing.Size(258, 48);
-            this.Tb_Player1.TabIndex = 1;
-            this.Tb_Player1.Text = "";
-            // 
-            // Tb_player2
-            // 
-            this.Tb_player2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Tb_player2.BackColor = System.Drawing.Color.LimeGreen;
-            this.Tb_player2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Tb_player2.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tb_player2.Location = new System.Drawing.Point(802, 375);
-            this.Tb_player2.Multiline = false;
-            this.Tb_player2.Name = "Tb_player2";
-            this.Tb_player2.Size = new System.Drawing.Size(258, 48);
-            this.Tb_player2.TabIndex = 2;
-            this.Tb_player2.Text = "";
             // 
             // Lb_label1
             // 
@@ -191,6 +165,28 @@
             this.Lb_credits.TabIndex = 87;
             this.Lb_credits.Text = "Created by Leor rose";
             // 
+            // Tb_Player1
+            // 
+            this.Tb_Player1.BackColor = System.Drawing.Color.LimeGreen;
+            this.Tb_Player1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Tb_Player1.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tb_Player1.Location = new System.Drawing.Point(802, 318);
+            this.Tb_Player1.Multiline = true;
+            this.Tb_Player1.Name = "Tb_Player1";
+            this.Tb_Player1.Size = new System.Drawing.Size(258, 35);
+            this.Tb_Player1.TabIndex = 88;
+            // 
+            // Tb_player2
+            // 
+            this.Tb_player2.BackColor = System.Drawing.Color.LimeGreen;
+            this.Tb_player2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Tb_player2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tb_player2.Location = new System.Drawing.Point(802, 388);
+            this.Tb_player2.Multiline = true;
+            this.Tb_player2.Name = "Tb_player2";
+            this.Tb_player2.Size = new System.Drawing.Size(258, 35);
+            this.Tb_player2.TabIndex = 89;
+            // 
             // Login_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -200,6 +196,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1313, 814);
             this.ControlBox = false;
+            this.Controls.Add(this.Tb_player2);
+            this.Controls.Add(this.Tb_Player1);
             this.Controls.Add(this.Lb_credits);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox10);
@@ -210,8 +208,6 @@
             this.Controls.Add(this.Bt_login_exit);
             this.Controls.Add(this.Lb_label2);
             this.Controls.Add(this.Lb_label1);
-            this.Controls.Add(this.Tb_player2);
-            this.Controls.Add(this.Tb_Player1);
             this.Name = "Login_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_form";
@@ -225,9 +221,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox Tb_Player1;
-        private System.Windows.Forms.RichTextBox Tb_player2;
         private System.Windows.Forms.Label Lb_label1;
         private System.Windows.Forms.Label Lb_label2;
         private System.Windows.Forms.Button Bt_login_exit;
@@ -238,5 +231,7 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label Lb_credits;
+        private System.Windows.Forms.TextBox Tb_Player1;
+        private System.Windows.Forms.TextBox Tb_player2;
     }
 }

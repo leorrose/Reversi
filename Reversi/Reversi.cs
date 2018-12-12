@@ -1503,7 +1503,9 @@ namespace Reversi
 
         private void Bt_reversi_instuctions_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Instruction Newins = new Instruction(this);
+            Newins.Show();
         }
     }
 }
