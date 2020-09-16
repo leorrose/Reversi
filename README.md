@@ -1,6 +1,6 @@
 # Reversi
 
-## Project Explanation
+### Project Explanation
 
 A simple winforms desktop application of reversi game thar anyone can enjoy.
 
@@ -10,13 +10,13 @@ The project was tested only with visual studio.
 
 ### Project Run (Windows):
 1. option 1 (with visual studio):
-  - open visual studio.
-  - go to file -> open -> Project\Solution
-  - select Reversi.sln
-  - run the program (press start in visual studio)
+   - open visual studio.
+   - go to file -> open -> Project\Solution
+   - select Reversi.sln
+   - run the program (press start in visual studio)
 2. option 2 (with the .exe file):
-  - go to folder './Reversi/Reversi/bin/Debug'
-  - run Reversi.exe
+   - go to folder './Reversi/Reversi/bin/Debug'
+   - run Reversi.exe
 
 ### Demo:
 ![Reversi Demo Video](https://github.com/leorrose/Reversi/blob/master/demo.gif)
