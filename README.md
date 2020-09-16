@@ -2,9 +2,9 @@
 
 ### Project Explanation
 
-A simple winforms desktop application of reversi game thar anyone can enjoy.
+A simple WinForms desktop application of reversi game that anyone can enjoy.
 
-This Project was created with <b> C# with basic GUI (winforms) on .net framework </b> (only works on windows). 
+This Project was created with <b> C# with basic GUI (WinForms) on .net framework </b> (only works on windows). 
 
 The project was tested only with visual studio.
 
