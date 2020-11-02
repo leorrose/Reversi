@@ -1,5 +1,9 @@
 # Reversi
 
+<p align="center">
+   <img src="https://img.shields.io/badge/-Collage%20Project-informational" />
+</p>
+
 ### Project Explanation
 
 A simple WinForms desktop application of reversi game that anyone can enjoy.
