@@ -1,8 +1,8 @@
-# Reversi
-
 <p align="center">
    <img src="https://img.shields.io/badge/-Collage%20Project-informational" />
 </p>
+
+# Reversi
 
 ### Project Explanation
 
